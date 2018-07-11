@@ -1676,14 +1676,14 @@ the Creative Commons Attribution-ShareAlike 3.0 Unported License</text>
 <wire x1="20.32" y1="66.04" x2="20.32" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="DP-TINY" class="0">
+<net name="DM-TINY" class="0">
 <segment>
 <pinref part="R1" gate="G$1" pin="2"/>
 <pinref part="IC1" gate="G$1" pin="PB3(ADC3)"/>
 <wire x1="45.72" y1="33.02" x2="53.34" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="DM-TINY" class="0">
+<net name="DP-TINY" class="0">
 <segment>
 <pinref part="R2" gate="G$1" pin="2"/>
 <pinref part="IC1" gate="G$1" pin="PB4(ADC2)"/>

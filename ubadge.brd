@@ -633,7 +633,7 @@ design rules under a new name.</description>
 <wire x1="5.095" y1="8.3528" x2="4.334" y2="9.1138" width="0.254" layer="1"/>
 <wire x1="4.334" y1="9.1138" x2="2.4638" y2="9.3726" width="0.254" layer="1"/>
 </signal>
-<signal name="DP-TINY">
+<signal name="DM-TINY">
 <contactref element="R1" pad="2"/>
 <contactref element="IC1" pad="2"/>
 <via x="7" y="4.4203875" extent="1-16" drill="0.35"/>
@@ -648,7 +648,7 @@ design rules under a new name.</description>
 <wire x1="6.8142" y1="4.2345875" x2="7" y2="4.4203875" width="0.1524" layer="1"/>
 <wire x1="6.8142" y1="3.28090625" x2="6.8142" y2="4.2345875" width="0.1524" layer="1"/>
 </signal>
-<signal name="DM-TINY">
+<signal name="DP-TINY">
 <contactref element="R2" pad="2"/>
 <contactref element="IC1" pad="3"/>
 <wire x1="7.635" y1="1.6218" x2="7.635" y2="1.29278125" width="0.1524" layer="1"/>
