@@ -1550,7 +1550,7 @@ Manufacturer: Hirose&lt;br&gt;
 </class>
 </classes>
 <parts>
-<part name="X1" library="SparkFun-Connectors" deviceset="USB_MICRO-B" device="_SMT"/>
+<part name="X1" library="SparkFun-Connectors" deviceset="USB_MICRO-B" device="_FEMALE-SMT"/>
 <part name="IC1" library="SparkFun" deviceset="ATTINY45" device="" value="ATTINY85"/>
 <part name="C1" library="SparkFun" deviceset="CAP" device="0402-CAP" value="0.1uf"/>
 <part name="R1" library="SparkFun" deviceset="RESISTOR" device="0402-RES" value="66.5R"/>
