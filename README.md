@@ -3,7 +3,7 @@ functional badge in 1 square centimeter
 
 The [Shitty Add-On(SAO) spec](https://hackaday.io/project/52950-defcon-26-shitty-add-ons) made it even easier to build badges, boards, and all sorts of assorted flashy swag without the commitment to building a full badge.
 
-To comlpiment the assortment of SAO boards I was working on, I decided to create the smalles possible functional 'badge' with a single SAO connector.
+To comlpiment the assortment of SAO boards I was working on, I decided to create the smallest possible functional 'badge' with a single SAO connector.
 
 [Hardware design](#hardware-design) will tell you more about how the badge was designed and built. [Other Components](#other-components) will list the other boards available that can be combined to make up a full 'badge'. [Building your Badge](#building-your-badge) covers how to put pieces together and still have a good chance of them working properly. Finally,  [Programming your Badge](#programming-your-badge) covers how to set up the IDE and rewrite the code on your microbadge via USB.
 
@@ -28,11 +28,13 @@ The microbadge is based on the [Digispark](http://digistump.com/), a small attin
 The fun objective was to see how small the board really could be, while still being programmable with no special hardware:
 1. The Digispark had a USB-A connector made from a thick PCB. This took up space and required especially thick boards. I replaced it with a much smaller microUSB header
 1. The Digispark has a large 3.3v regulator to power the attiny85 as well as some add-on devices. It also needed zener diodes to make sure the USB data lines did not exceed 3.3v. I removed both. The board no longer gets power from USB and must have an exernal 3.3v power supply
-## adding to the design
+## Adding to the design
 1. The Digispark could get power from USB, or from 3.3 or 5v pins. Without the regulator and no room for additional pins, I added pads on the end to edge-mount a vertical cr2032 holder. It's rather difficult to attach and potentially weak unless reinforced, so several battery-bearing add-ons seem to be a better choice.
 1. The digispark had a 6-pin header. the SAO header only needs power, ground, and 2 data pins for I2C.
 
 The SAO connector took the most space and is placed on the same side as the necessary resistors and capacitors, while the attiny and usb micro connctor could fit on the other side.
+
+Thanks to a reel of odd-sku attiny85s and parts from china, the BOM cost was under $1 per microbadge (arms/addons excluded). I originally planned to assemble overseas, but when the quoted timeline was weeks longer than I expected, I reached out to [Piotr](https://github.com/esden) and tricked him into helping with assembly. Despite my poor DFM skills, he still managed to get 1100 of them assembled in time for defcoin. Thank [Piotr](https://twitter.com/esden) and/or [1BitSquared](https://twitter.com/1BitSquared)
 
 # Other components
 Building the microbadge was inspired by all the add-ons that were available. I started with a series of arms, then added a few faces, and finally a few addons and adapters:
@@ -48,13 +50,13 @@ Building the microbadge was inspired by all the add-ons that were available. I s
 * terminator to terminate your I2C signals with pullups
 * badgewife for badgelife diehards
 * smiley for dade murphy fans
-## addons/adapters
+## Addons/adapters
 * [sao-iic]() to attach many common iic breakout boards
 * [sao-flipper]() to flip a backwards SAO
 * [sao-stripper](https://github.com/securelyfitz/sao-stripper) to attach neopixel strips over SAO
 * [sao-rotate]() to rotate an sao 90 degrees
 * [sao-45]() to rotate an sao 45 degrees
-## bonus badges 
+## Bonus badges 
 * rpi-shat SAO Hat for raspberry pi
 * [hdmi3c](https://github.com/securelyfitz/hdmi3c) hdmi-to-sao version
 
@@ -70,7 +72,7 @@ Building the microbadge was inspired by all the add-ons that were available. I s
 3. Skewer your arms onto the long header
 4. plug the long header onto the microbadge
 5. add some LEDs or addons
-6. Take a picture and thank [@securelyfitz](https://twitter.com/securelyfitz) and/or [https://twitter.com/securinghw](@securinghw) on twitter.
+6. Take a picture and thank [@securelyfitz](https://twitter.com/securelyfitz) and/or [@securinghw](https://twitter.com/securinghw) on twitter.
 
 Due to size, space, and flexibility, the orientations of the headers are not all clearly marked.
 ## microbadge
