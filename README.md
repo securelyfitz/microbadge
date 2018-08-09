@@ -52,10 +52,10 @@ Building the microbadge was inspired by all the add-ons that were available. I s
 * smiley for dade murphy fans
 ## Addons/adapters
 * [sao-iic](https://github.com/securelyfitz/sao-iic) to attach many common iic breakout boards
-* [sao-flipper]() to flip a backwards SAO
 * [sao-stripper](https://github.com/securelyfitz/sao-stripper) to attach neopixel strips over SAO
-* [sao-rotate]() to rotate an sao 90 degrees
-* [sao-45]() to rotate an sao 45 degrees
+* [sao-flipper](https://github.com/securelyfitz/sao-flipper) to flip a backwards SAO
+* [sao-rotate](https://github.com/securelyfitz/sao-rotate) to rotate an sao 90 degrees
+* [sao-45](https://github.com/securelyfitz/sao-45) to rotate an sao 45 degrees
 ## Bonus badges 
 * [rpi-shat](https://github.com/securelyfitz/Adafruit-Perma-Proto-HAT-PCB) SAO Hat for raspberry pi
 * [hdmi3c](https://github.com/securelyfitz/hdmi3c) hdmi-to-sao version
